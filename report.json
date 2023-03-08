@@ -1,0 +1,338 @@
+[
+    {
+        "hash": "6e7cf0779696f9beb654f775fe472c99",
+        "description": "without_images",
+        "severity": "Warning",
+        "file": "Please upgrade to PRO",
+        "line": 1
+    },
+    {
+        "hash": "9dc73a84a0cb08a72288809792bf4a42",
+        "description": "Big_Numbers3",
+        "severity": "Warning",
+        "file": "Please upgrade to PRO",
+        "line": 1
+    },
+    {
+        "hash": "eaac22b464dd0a99e5ac553ad97d8273",
+        "description": "vulnerable_openssl_version",
+        "severity": "Warning",
+        "file": "Please upgrade to PRO",
+        "line": 1
+    },
+    {
+        "hash": "5f7dd9e1d42f221331f897bf65b9d79d",
+        "description": "with_urls",
+        "severity": "Warning",
+        "file": "Please upgrade to PRO",
+        "line": 1
+    },
+    {
+        "hash": "9a8946c7c0c24915bbf81967b40d14ac",
+        "description": "Big_Numbers3",
+        "severity": "Warning",
+        "file": "Please upgrade to PRO",
+        "line": 1
+    },
+    {
+        "hash": "51b8dce5bc926a437a147c31740b9c66",
+        "description": "without_attachments",
+        "severity": "Warning",
+        "file": "Please upgrade to PRO",
+        "line": 1
+    },
+    {
+        "hash": "6d261d2fdeb54f82678a9c202003b5c5",
+        "description": "GenericAPIKey",
+        "severity": "Warning",
+        "file": "Please upgrade to PRO",
+        "line": 3
+    },
+    {
+        "hash": "58dcd67d7e5553cd0796570c1c6c1fe4",
+        "description": "Highentropy",
+        "severity": "Warning",
+        "file": "Please upgrade to PRO",
+        "line": 20
+    },
+    {
+        "hash": "aa031efa630ae83c27e71e05388a297f",
+        "description": "Untrusted user input in redirect() can result in Open Redirect vulnerability.",
+        "severity": "Warning",
+        "file": "Please upgrade to PRO",
+        "line": 22
+    },
+    {
+        "hash": "fc6d14552811b6c0f7f1659783da9bdf",
+        "description": "Untrusted input concatinated with raw SQL query can result in SQL Injection.",
+        "severity": "Warning",
+        "file": "Please upgrade to PRO",
+        "line": 12
+    },
+    {
+        "hash": "3a122edbba55f8a94f7df4dbe0e724be",
+        "description": "The Servlet can read GET and POST parameters from various methods. The value obtained should be\nconsidered unsafe. You may need to validate or sanitize those values before passing them to\nsensitive APIs\n",
+        "severity": "Warning",
+        "file": "Please upgrade to PRO",
+        "line": 11
+    },
+    {
+        "hash": "af5ac7a44b3196aa9fe2c8f7579ad24c",
+        "description": "User-controllable string passed to Razor.Parse.  This leads directly to code execution in the context of the process.",
+        "severity": "Warning",
+        "file": "Please upgrade to PRO",
+        "line": 19
+    },
+    {
+        "hash": "c280ab9b2ba8b7f7b2c4ba8a5443ef33",
+        "description": "Found a Spring RestController\nMake sure you are not vulnerable or have the possible mitigations\nhttps://www.praetorian.com/blog/spring-core-jdk9-rce/\n",
+        "severity": "Warning",
+        "file": "Please upgrade to PRO",
+        "line": 5
+    },
+    {
+        "hash": "fba6ac4d4c35817d16fb8a43988289be",
+        "description": "Possible Lookup injection into Log4j messages.",
+        "severity": "Warning",
+        "file": "Please upgrade to PRO",
+        "line": 21
+    },
+    {
+        "hash": "4130029a6cbbeabd589d7be8d5a9ec72",
+        "description": "All classes, interfaces, enums and annotations must belong to a named package",
+        "severity": "Warning",
+        "file": "Please upgrade to PRO",
+        "line": 8
+    },
+    {
+        "hash": "8a1f1d391d2143c751adc9ff705df9aa",
+        "description": "Unused import 'org.springframework.web.servlet.mvc.multiaction.MultiActionController'",
+        "severity": "Warning",
+        "file": "Please upgrade to PRO",
+        "line": 7
+    },
+    {
+        "hash": "431109aa6dcb66a950f3d36031bab8e2",
+        "description": "Sql Injection",
+        "severity": "Warning",
+        "file": "Please upgrade to PRO",
+        "line": 6
+    },
+    {
+        "hash": "123dd96c8c1cd9d5778a772a540b72d7",
+        "description": "Xss",
+        "severity": "Warning",
+        "file": "Please upgrade to PRO",
+        "line": 15
+    },
+    {
+        "hash": "53db42b62b4273469f3ee9cb4095013e",
+        "description": "Header Injection",
+        "severity": "Warning",
+        "file": "Please upgrade to PRO",
+        "line": 11
+    },
+    {
+        "hash": "9a01cedbdeb59899c8c3a57ac28b0259",
+        "description": "GHSA-jxhc-q857-3j6g",
+        "severity": "Warning",
+        "file": "Please upgrade to PRO",
+        "line": 1
+    },
+    {
+        "hash": "6fb432c9e6b05e20fb10a21388495b57",
+        "description": "GHSA-5r2p-j47h-mhpg",
+        "severity": "Warning",
+        "file": "Please upgrade to PRO",
+        "line": 1
+    },
+    {
+        "hash": "7a47e0a41305a3466dd45a093056f7d6",
+        "description": "GHSA-hxqx-xwvh-44m2",
+        "severity": "Warning",
+        "file": "Please upgrade to PRO",
+        "line": 1
+    },
+    {
+        "hash": "4b8621f0a19a6aa5864fe7ce7212214a",
+        "description": "GHSA-65f5-mfpf-vfhj",
+        "severity": "Warning",
+        "file": "Please upgrade to PRO",
+        "line": 1
+    },
+    {
+        "hash": "d90ad9b662ccf4be53b80e1ffa5da139",
+        "description": "GHSA-j6w9-fv6q-3q52",
+        "severity": "Warning",
+        "file": "Please upgrade to PRO",
+        "line": 1
+    },
+    {
+        "hash": "d923569c6ac39b9cef92adb24434c285",
+        "description": "GHSA-wq4h-7r42-5hrr",
+        "severity": "Warning",
+        "file": "Please upgrade to PRO",
+        "line": 1
+    },
+    {
+        "hash": "e3ebb48113ba5c5fa2f14aa230c8ebc2",
+        "description": "GHSA-rgr4-9jh5-j4j6",
+        "severity": "Warning",
+        "file": "Please upgrade to PRO",
+        "line": 1
+    },
+    {
+        "hash": "a7ffd22e210134c26c3847fbd3782403",
+        "description": "GHSA-5f9h-9pjv-v6j7",
+        "severity": "Warning",
+        "file": "Please upgrade to PRO",
+        "line": 1
+    },
+    {
+        "hash": "f545a0e8195211d985e37910229f4eaf",
+        "description": "GHSA-xg9f-g7g7-2323",
+        "severity": "Warning",
+        "file": "Please upgrade to PRO",
+        "line": 1
+    },
+    {
+        "hash": "ff398a8c31b4dbbb2a7608282cc844b8",
+        "description": "GHSA-hrqr-hxpp-chr3",
+        "severity": "Warning",
+        "file": "Please upgrade to PRO",
+        "line": 1
+    },
+    {
+        "hash": "c77c12230ba786fa7c31f76593426391",
+        "description": "GHSA-w7pp-m8wf-vj6r",
+        "severity": "Warning",
+        "file": "Please upgrade to PRO",
+        "line": 1
+    },
+    {
+        "hash": "28ea04570fb95fdfba9275c1c8bf20a3",
+        "description": "GHSA-3h57-hmj3-gj3p",
+        "severity": "Warning",
+        "file": "Please upgrade to PRO",
+        "line": 1
+    },
+    {
+        "hash": "9d39a5fdb712fee178acb64fa4df91f2",
+        "description": "GHSA-x4qr-2fvf-3mr5",
+        "severity": "Warning",
+        "file": "Please upgrade to PRO",
+        "line": 1
+    },
+    {
+        "hash": "ec74ed9ac22577edb2bad9f284cad0e8",
+        "description": "GHSA-43fp-rhv2-5gv8",
+        "severity": "Warning",
+        "file": "Please upgrade to PRO",
+        "line": 1
+    },
+    {
+        "hash": "0c630b0320414066725221da51526fe9",
+        "description": "GHSA-px8h-6qxv-m22q",
+        "severity": "Warning",
+        "file": "Please upgrade to PRO",
+        "line": 1
+    },
+    {
+        "hash": "cac43b86d233ab4b5cb9885c51610633",
+        "description": "GHSA-jppv-gw3r-w3q8",
+        "severity": "Warning",
+        "file": "Please upgrade to PRO",
+        "line": 1
+    },
+    {
+        "hash": "e2cc5ed6784114c1ddd43ee575365816",
+        "description": "The Anti-forgery token is missing. Without this validation, an attacker could send a link to the victim and, visiting the malicious link, a web page would trigger a POST request (because it is a blind attack - the attacker does not see a response to the triggered request and does not have the use of the GET request and GET requests must not change a server state by default) for the site. The victim would not be able to recognize that an action is taken in the background, but his cookie would be sent automatically if he was authenticated on the website. This attack requires no special interaction other than visiting a website.",
+        "severity": "Warning",
+        "file": "Please upgrade to PRO",
+        "line": 11
+    },
+    {
+        "hash": "571e1b84bd4f711cb70805eeb464382b",
+        "description": "first argument to exec.Command looks like a shell command, but a program name or path are expected",
+        "severity": "Warning",
+        "file": "Please upgrade to PRO",
+        "line": 10
+    },
+    {
+        "hash": "98d9041e811982d1eeddd01770d03ad2",
+        "description": "func fn is unused",
+        "severity": "Warning",
+        "file": "Please upgrade to PRO",
+        "line": 8
+    },
+    {
+        "hash": "97338f81e74e936b62c02159bd60d1bf",
+        "description": "func serve is unused",
+        "severity": "Warning",
+        "file": "Please upgrade to PRO",
+        "line": 9
+    },
+    {
+        "hash": "b6e338b74163950db4ca277e5394b31c",
+        "description": "should use constant http.StatusFound instead of numeric literal 302",
+        "severity": "Warning",
+        "file": "Please upgrade to PRO",
+        "line": 20
+    },
+    {
+        "hash": "985009a0ea17868ada8e9f20fd50965e",
+        "description": "Technical information leak - Print Functions",
+        "severity": "Warning",
+        "file": "Please upgrade to PRO",
+        "line": 8
+    },
+    {
+        "hash": "99b183eed0cc5e095e83bda21121794c",
+        "description": "Technical information leak - Console functions",
+        "severity": "Warning",
+        "file": "Please upgrade to PRO",
+        "line": 26
+    },
+    {
+        "hash": "454bdf21d4b2afd69a2c89e08d478078",
+        "description": "Technical information leak - Console functions",
+        "severity": "Warning",
+        "file": "Please upgrade to PRO",
+        "line": 18
+    },
+    {
+        "hash": "8e40a213417f2767f2106e41fe6be9e4",
+        "description": "Ensure top-level permissions are not set to write-all",
+        "severity": "Warning",
+        "file": "Please upgrade to PRO",
+        "line": 1
+    },
+    {
+        "hash": "cd28909f5f25dcadd5b39ac9ce936c41",
+        "description": "Base64 High Entropy String",
+        "severity": "Warning",
+        "file": "Please upgrade to PRO",
+        "line": 4
+    },
+    {
+        "hash": "95bd717ca75123ca657bbb14add13b9c",
+        "description": "Possible binding to all interfaces.",
+        "severity": "Warning",
+        "file": "Please upgrade to PRO",
+        "line": 27
+    },
+    {
+        "hash": "fa9ba87874a6007ae75d1d013e03679e",
+        "description": "Possible SQL injection vector through string-based query construction.",
+        "severity": "Warning",
+        "file": "Please upgrade to PRO",
+        "line": 24
+    },
+    {
+        "hash": "56df998e68c85c770f8b7a0d8cebeb8b",
+        "description": "Use of exec detected.",
+        "severity": "Warning",
+        "file": "Please upgrade to PRO",
+        "line": 12
+    }
+]
