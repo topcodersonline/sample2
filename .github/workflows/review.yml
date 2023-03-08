@@ -3,7 +3,7 @@ on:
  pull_request:
    types: [opened, edited, reopened, review_requested, synchronize]
    branches:
-      - 'main'
+      - 'master'
 jobs:
   Betterscan:
     runs-on: ubuntu-latest
