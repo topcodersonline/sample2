@@ -1,0 +1,553 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+  <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+  <title>Report</title>
+  <script type='text/javascript' src='https://code.jquery.com/jquery-2.1.0.js'></script>
+
+  <script type='text/javascript' src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/js/bootstrap.min.js"></script>
+
+  <link href="https://dl.betterscan.io/assets/css/reportstyle.css" rel="stylesheet">
+
+
+
+
+
+<script type='text/javascript'>//<![CDATA[
+$(window).load(function(){
+var data =
+[
+    {
+        "hash": "eaac22b464dd0a99e5ac553ad97d8273",
+        "description": "vulnerable_openssl_version",
+        "severity": "Warning",
+        "file": "openssl",
+        "line": 1
+    },
+    {
+        "hash": "5f7dd9e1d42f221331f897bf65b9d79d",
+        "description": "with_urls",
+        "severity": "Warning",
+        "file": "openssl",
+        "line": 1
+    },
+    {
+        "hash": "9a8946c7c0c24915bbf81967b40d14ac",
+        "description": "Big_Numbers3",
+        "severity": "Warning",
+        "file": "openssl",
+        "line": 1
+    },
+    {
+        "hash": "51b8dce5bc926a437a147c31740b9c66",
+        "description": "without_attachments",
+        "severity": "Warning",
+        "file": "openssl",
+        "line": 1
+    },
+    {
+        "hash": "6e7cf0779696f9beb654f775fe472c99",
+        "description": "without_images",
+        "severity": "Warning",
+        "file": "openssl",
+        "line": 1
+    },
+    {
+        "hash": "9dc73a84a0cb08a72288809792bf4a42",
+        "description": "Big_Numbers3",
+        "severity": "Warning",
+        "file": "Pipfile.lock",
+        "line": 1
+    },
+    {
+        "hash": "58dcd67d7e5553cd0796570c1c6c1fe4",
+        "description": "Highentropy",
+        "severity": "Warning",
+        "file": ".github/workflows/review.yml",
+        "line": 25
+    },
+    {
+        "hash": "6d261d2fdeb54f82678a9c202003b5c5",
+        "description": "GenericAPIKey",
+        "severity": "Warning",
+        "file": "javascript.js",
+        "line": 3
+    },
+    {
+        "hash": "eb4f6e71f27152c54ec9f2c6f55910ae",
+        "description": "Regular Expression Denial of Service (ReDoS) (SNYK-RUBY-ADDRESSABLE-1316242)",
+        "severity": "Warning",
+        "file": "Gemfile.lock",
+        "line": 1
+    },
+    {
+        "hash": "74addb6a381fab2898a7700e278320bf",
+        "description": "Denial of Service (DoS) (SNYK-RUBY-RACK-20230)",
+        "severity": "Warning",
+        "file": "Gemfile.lock",
+        "line": 1
+    },
+    {
+        "hash": "23918f31e19a692dd8ee57ac7ff0f109",
+        "description": "Information Exposure (SNYK-RUBY-RACK-538324)",
+        "severity": "Warning",
+        "file": "Gemfile.lock",
+        "line": 1
+    },
+    {
+        "hash": "ac95eba193208cedcb5bef70e607d034",
+        "description": "Cross-site Scripting (XSS) (SNYK-RUBY-RACK-72567)",
+        "severity": "Warning",
+        "file": "Gemfile.lock",
+        "line": 1
+    },
+    {
+        "hash": "0aac10847014ac68e1a722e5493de448",
+        "description": "IP Spoofing (SNYK-RUBY-RACK-20399)",
+        "severity": "Warning",
+        "file": "Gemfile.lock",
+        "line": 1
+    },
+    {
+        "hash": "0a8bf5c7908e1a980be3ef65a0a5bf0d",
+        "description": "Cross-site Request Forgery (CSRF) (SNYK-RUBY-RACK-572377)",
+        "severity": "Warning",
+        "file": "Gemfile.lock",
+        "line": 1
+    },
+    {
+        "hash": "bf60ed917e9d49ae26a3f18363dc8130",
+        "description": "Arbitrary Code Injection (SNYK-RUBY-RACK-2848599)",
+        "severity": "Warning",
+        "file": "Gemfile.lock",
+        "line": 1
+    },
+    {
+        "hash": "58e929b6976baee46d280b84038541f9",
+        "description": "Web Cache Poisoning (SNYK-RUBY-RACK-1061917)",
+        "severity": "Warning",
+        "file": "Gemfile.lock",
+        "line": 1
+    },
+    {
+        "hash": "1ac86d544d79da2457caa684a9c7524a",
+        "description": "Directory Traversal (SNYK-RUBY-RACK-569066)",
+        "severity": "Warning",
+        "file": "Gemfile.lock",
+        "line": 1
+    },
+    {
+        "hash": "aa031efa630ae83c27e71e05388a297f",
+        "description": "Untrusted user input in redirect() can result in Open Redirect vulnerability.",
+        "severity": "Warning",
+        "file": "javascript.js",
+        "line": 22
+    },
+    {
+        "hash": "fc6d14552811b6c0f7f1659783da9bdf",
+        "description": "Untrusted input concatinated with raw SQL query can result in SQL Injection.",
+        "severity": "Warning",
+        "file": "javascript.js",
+        "line": 12
+    },
+    {
+        "hash": "3a122edbba55f8a94f7df4dbe0e724be",
+        "description": "The Servlet can read GET and POST parameters from various methods. The value obtained should be\nconsidered unsafe. You may need to validate or sanitize those values before passing them to\nsensitive APIs\n",
+        "severity": "Warning",
+        "file": "javasample.java",
+        "line": 11
+    },
+    {
+        "hash": "af5ac7a44b3196aa9fe2c8f7579ad24c",
+        "description": "User-controllable string passed to Razor.Parse.  This leads directly to code execution in the context of the process.",
+        "severity": "Warning",
+        "file": "razor.cs",
+        "line": 19
+    },
+    {
+        "hash": "c280ab9b2ba8b7f7b2c4ba8a5443ef33",
+        "description": "Found a Spring RestController\nMake sure you are not vulnerable or have the possible mitigations\nhttps://www.praetorian.com/blog/spring-core-jdk9-rce/\n",
+        "severity": "Warning",
+        "file": "spring4shellsample.java",
+        "line": 5
+    },
+    {
+        "hash": "fba6ac4d4c35817d16fb8a43988289be",
+        "description": "Possible Lookup injection into Log4j messages.",
+        "severity": "Warning",
+        "file": "log4shellsample.java",
+        "line": 21
+    },
+    {
+        "hash": "4130029a6cbbeabd589d7be8d5a9ec72",
+        "description": "All classes, interfaces, enums and annotations must belong to a named package",
+        "severity": "Warning",
+        "file": "javasample.java",
+        "line": 8
+    },
+    {
+        "hash": "8a1f1d391d2143c751adc9ff705df9aa",
+        "description": "Unused import 'org.springframework.web.servlet.mvc.multiaction.MultiActionController'",
+        "severity": "Warning",
+        "file": "spring4shellsample.java",
+        "line": 7
+    },
+    {
+        "hash": "53db42b62b4273469f3ee9cb4095013e",
+        "description": "Header Injection",
+        "severity": "Warning",
+        "file": "phpsample.php",
+        "line": 11
+    },
+    {
+        "hash": "431109aa6dcb66a950f3d36031bab8e2",
+        "description": "Sql Injection",
+        "severity": "Warning",
+        "file": "phpsample.php",
+        "line": 6
+    },
+    {
+        "hash": "123dd96c8c1cd9d5778a772a540b72d7",
+        "description": "Xss",
+        "severity": "Warning",
+        "file": "phpsample.php",
+        "line": 15
+    },
+    {
+        "hash": "f545a0e8195211d985e37910229f4eaf",
+        "description": "GHSA-xg9f-g7g7-2323",
+        "severity": "Warning",
+        "file": "Gemfile.lock",
+        "line": 1
+    },
+    {
+        "hash": "0c630b0320414066725221da51526fe9",
+        "description": "GHSA-px8h-6qxv-m22q",
+        "severity": "Warning",
+        "file": "Gemfile.lock",
+        "line": 1
+    },
+    {
+        "hash": "4b8621f0a19a6aa5864fe7ce7212214a",
+        "description": "GHSA-65f5-mfpf-vfhj",
+        "severity": "Warning",
+        "file": "Gemfile.lock",
+        "line": 1
+    },
+    {
+        "hash": "7a47e0a41305a3466dd45a093056f7d6",
+        "description": "GHSA-hxqx-xwvh-44m2",
+        "severity": "Warning",
+        "file": "Gemfile.lock",
+        "line": 1
+    },
+    {
+        "hash": "a7ffd22e210134c26c3847fbd3782403",
+        "description": "GHSA-5f9h-9pjv-v6j7",
+        "severity": "Warning",
+        "file": "Gemfile.lock",
+        "line": 1
+    },
+    {
+        "hash": "cac43b86d233ab4b5cb9885c51610633",
+        "description": "GHSA-jppv-gw3r-w3q8",
+        "severity": "Warning",
+        "file": "Gemfile.lock",
+        "line": 1
+    },
+    {
+        "hash": "6fb432c9e6b05e20fb10a21388495b57",
+        "description": "GHSA-5r2p-j47h-mhpg",
+        "severity": "Warning",
+        "file": "Gemfile.lock",
+        "line": 1
+    },
+    {
+        "hash": "e3ebb48113ba5c5fa2f14aa230c8ebc2",
+        "description": "GHSA-rgr4-9jh5-j4j6",
+        "severity": "Warning",
+        "file": "Gemfile.lock",
+        "line": 1
+    },
+    {
+        "hash": "d90ad9b662ccf4be53b80e1ffa5da139",
+        "description": "GHSA-j6w9-fv6q-3q52",
+        "severity": "Warning",
+        "file": "Gemfile.lock",
+        "line": 1
+    },
+    {
+        "hash": "28ea04570fb95fdfba9275c1c8bf20a3",
+        "description": "GHSA-3h57-hmj3-gj3p",
+        "severity": "Warning",
+        "file": "Gemfile.lock",
+        "line": 1
+    },
+    {
+        "hash": "9a01cedbdeb59899c8c3a57ac28b0259",
+        "description": "GHSA-jxhc-q857-3j6g",
+        "severity": "Warning",
+        "file": "Gemfile.lock",
+        "line": 1
+    },
+    {
+        "hash": "c77c12230ba786fa7c31f76593426391",
+        "description": "GHSA-w7pp-m8wf-vj6r",
+        "severity": "Warning",
+        "file": "Gemfile.lock",
+        "line": 1
+    },
+    {
+        "hash": "9d39a5fdb712fee178acb64fa4df91f2",
+        "description": "GHSA-x4qr-2fvf-3mr5",
+        "severity": "Warning",
+        "file": "Gemfile.lock",
+        "line": 1
+    },
+    {
+        "hash": "d923569c6ac39b9cef92adb24434c285",
+        "description": "GHSA-wq4h-7r42-5hrr",
+        "severity": "Warning",
+        "file": "Gemfile.lock",
+        "line": 1
+    },
+    {
+        "hash": "ff398a8c31b4dbbb2a7608282cc844b8",
+        "description": "GHSA-hrqr-hxpp-chr3",
+        "severity": "Warning",
+        "file": "Gemfile.lock",
+        "line": 1
+    },
+    {
+        "hash": "ec74ed9ac22577edb2bad9f284cad0e8",
+        "description": "GHSA-43fp-rhv2-5gv8",
+        "severity": "Warning",
+        "file": "Gemfile.lock",
+        "line": 1
+    },
+    {
+        "hash": "e2cc5ed6784114c1ddd43ee575365816",
+        "description": "The Anti-forgery token is missing. Without this validation, an attacker could send a link to the victim and, visiting the malicious link, a web page would trigger a POST request (because it is a blind attack - the attacker does not see a response to the triggered request and does not have the use of the GET request and GET requests must not change a server state by default) for the site. The victim would not be able to recognize that an action is taken in the background, but his cookie would be sent automatically if he was authenticated on the website. This attack requires no special interaction other than visiting a website.",
+        "severity": "Warning",
+        "file": "razor.cs",
+        "line": 11
+    },
+    {
+        "hash": "98d9041e811982d1eeddd01770d03ad2",
+        "description": "func fn is unused",
+        "severity": "Warning",
+        "file": "samplego1.go",
+        "line": 8
+    },
+    {
+        "hash": "b6e338b74163950db4ca277e5394b31c",
+        "description": "should use constant http.StatusFound instead of numeric literal 302",
+        "severity": "Warning",
+        "file": "gosample.go",
+        "line": 20
+    },
+    {
+        "hash": "97338f81e74e936b62c02159bd60d1bf",
+        "description": "func serve is unused",
+        "severity": "Warning",
+        "file": "gosample.go",
+        "line": 9
+    },
+    {
+        "hash": "571e1b84bd4f711cb70805eeb464382b",
+        "description": "first argument to exec.Command looks like a shell command, but a program name or path are expected",
+        "severity": "Warning",
+        "file": "samplego1.go",
+        "line": 10
+    },
+    {
+        "hash": "99b183eed0cc5e095e83bda21121794c",
+        "description": "Technical information leak - Console functions",
+        "severity": "Warning",
+        "file": "javascript.js",
+        "line": 26
+    },
+    {
+        "hash": "454bdf21d4b2afd69a2c89e08d478078",
+        "description": "Technical information leak - Console functions",
+        "severity": "Warning",
+        "file": "javascript.js",
+        "line": 18
+    },
+    {
+        "hash": "8e40a213417f2767f2106e41fe6be9e4",
+        "description": "Ensure top-level permissions are not set to write-all",
+        "severity": "Warning",
+        "file": ".github/workflows/review.yml",
+        "line": 1
+    },
+    {
+        "hash": "56df998e68c85c770f8b7a0d8cebeb8b",
+        "description": "Use of exec detected.",
+        "severity": "Warning",
+        "file": "python.py",
+        "line": 12
+    },
+    {
+        "hash": "fa9ba87874a6007ae75d1d013e03679e",
+        "description": "Possible SQL injection vector through string-based query construction.",
+        "severity": "Warning",
+        "file": "python.py",
+        "line": 24
+    },
+    {
+        "hash": "95bd717ca75123ca657bbb14add13b9c",
+        "description": "Possible binding to all interfaces.",
+        "severity": "Warning",
+        "file": "python.py",
+        "line": 27
+    }
+]
+var sort_by = function(field, reverse, primer){
+
+   var key = primer ?
+       function(x) {return primer(x[field])} :
+       function(x) {return x[field]};
+
+   reverse = !reverse ? 1 : -1;
+
+   return function (a, b) {
+       return a = key(a), b = key(b), reverse * ((a > b) - (b > a));
+     }
+}
+
+for(var i = 0; i < data.length; i++) {
+
+    if(data[i].risk=="Information")
+    {
+        data[i].risk_no=1;
+    }
+
+    if(data[i].risk=="Low")
+    {
+        data[i].risk_no=2;
+    }
+
+    if(data[i].risk=="Medium")
+    {
+        data[i].risk_no=3;
+    }
+
+    if(data[i].risk=="High")
+    {
+        data[i].risk_no=4;
+    }
+
+
+
+
+
+}
+
+data.sort(sort_by('risk_no', true, parseInt));
+
+
+
+for(var i = 0; i < data.length; i++) {
+$('#findings').append("<tbody><tr><th>File</th><td>"+data[i].file+"</td></tr>");
+$('#findings').append("<tr><th>Description</th><td>"+data[i].description+"</td></tr>");
+$('#findings').append("<tr><th>Severity</th><td>Warning</td></tr>");
+$('#findings').append("<tr><th>Line</th><td>"+data[i].line+"</td></tr></tbody></table>");
+$('#hr').append("<hr>");
+
+}
+
+
+});//]]>
+
+</script>
+
+
+</head>
+
+ <div class="container-fluid">
+
+
+
+
+<p style="margin-bottom: 25px;"><img src="https://dl.betterscan.io/wp-content/uploads/2022/05/logo-nobackground-164x32-1.png" style="position:relative; top:-40px;"></p>
+
+<div class="tabbable tabs-left">
+    <ul class="nav nav-tabs">
+        <li class="active"><a href="#overview" data-toggle="tab">Summary</a></li>
+    </ul>
+    <div class="tab-content">
+        <div class="tab-pane fade in active" id="overview">
+
+
+<div class="alert alert-info">
+    <b>Tags</b>:
+
+        Security Final Report
+
+
+</div>
+
+<section id="information">
+    <div class="box">
+        <h4>Report</h4>
+        <div class="box-content" style="padding: 0;">
+            <table class="table">
+                <thead>
+                    <tr>
+                        <th style="border-top: 0;">Type</th>
+
+                         <td style="border-top: 0;">FILE</td>
+                    </tr>
+                </thead>
+            </table>
+        </div>
+    </div>
+
+
+</section>
+<hr>
+
+    <section id="file">
+    <h4>File Details</h4>
+    <div class="box">
+        <div class="box-content" style="padding: 0;">
+            <table class="table">
+                <tbody><tr>
+                    <th style="border-top: 0;">File Name</th>
+                    <td style="border-top: 0;">report.html</td>
+                </tr>
+                <tr>
+                    <th>File Type</th>
+                    <td>data</td>
+                </tr>
+            </tbody></table>
+        </div>
+    </div>
+</section>
+
+
+
+  <div align="center"><h1>Scan Report</h1></div>
+
+
+<hr>
+  <h4>Code</h4>
+
+ <section id="findings1">
+    <div class="box">
+
+        <div id="findings" class="box-content" style="padding: 0;">
+        </div>
+    </div>
+</section>
+
+</div>
+
+</body>
+
+
+</html>
+
+
